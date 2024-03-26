@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Permanent+Marker&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -59,7 +61,7 @@ li:hover {
     margin-top: 3px;
     position: absolute;
     left: 9px;
-    background-image: url("./pexels-photo-733745.jpeg");
+    background-image: url("./images/car1.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 8px;
@@ -73,7 +75,7 @@ li:hover {
     margin-top: 3px;
     position: absolute;
     right: 9px;
-    background-image: url("./pexels-photo-919073.webp");
+    background-image: url("./images/car2.webp");
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 8px;
@@ -157,7 +159,7 @@ video {
     top: 10px;
     left: -1px;
     border-radius: 7px;
-    background-image: url("./pexels-photo-2747793\ \(2\).jpeg");
+    background-image: url("./images/bike1.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
     /* transition-property: transform;
@@ -173,7 +175,7 @@ video {
     top: 10px;
     right: -1px;
     border-radius: 7px;
-    background-image: url("./pexels-photo-2607554\ \(2\).jpeg");
+    background-image: url("./images/bike2.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
     /* transition-property: transform;
@@ -189,7 +191,7 @@ video {
     top: 10px;
     right: -3px;
     border-radius: 7px;
-    background-image: url("./pexels-photo-6511935\ \(2\).jpeg");
+    background-image: url("./images/bike3.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
     /* transition-property: transform;
@@ -213,15 +215,18 @@ video {
 
 .summary {
     height: 500px;
-    width: 100%;
+    width: 95%;
     margin-top: 25px;
-    /* border: 2px solid white; */
+    margin: auto;
+    margin-top: 23px;
+    border: 2px solid purple; 
+    border-radius: 9px;
     display: grid;
     grid-template-columns: auto auto auto auto;
     grid-template-rows: auto auto auto;
     grid-gap: 2px;
     text-align: center;
-    padding-top: 55px;
+    padding-top: 90px;
 }
 
 .box {
@@ -234,4 +239,31 @@ video {
 }
 .box:hover{
     color: purple;
+}
+
+.thankyou{
+    height: 200px;
+    /* border: 2px solid green; */
+}
+h2{
+    color: rgb(252, 2, 2);
+    text-align: center;
+    font-size: 90px;
+    padding-top: 3%;
+
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+
+}
+h3{
+    color: purple;
+    text-align: center;
+    font-size: 40px;
+        font-family: "Permanent Marker", cursive;
+        font-weight: 400;
+        font-style: normal;
+      
+      
 }
